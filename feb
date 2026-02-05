@@ -1,0 +1,24 @@
+package javaclass;
+
+public class jvs {
+   int feb (int n) {
+	if (n<0) {
+		System.out.println("invalid number");
+	}  
+	else if (n==0 ||n==1) {
+		return n;
+	}
+	else if (n>1) {
+		return(feb(n-2)+feb(n-1));
+	}
+		return 0;
+	
+   }
+	public static void main(String[] args) {
+    jvs obj=new jvs();
+	System.out.println(obj.feb(8));	
+		
+		
+	}
+
+}
