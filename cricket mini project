@@ -1,0 +1,36 @@
+package waste;
+
+import java.util.Scanner;
+
+public class pooo {
+private static final String one = null;
+
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("select cricket players");
+	System.out.println("virat kholi");
+	System.out.println("bravo");
+	System.out.println("raina");
+	System.out.println("enter your choice");
+	int choice=sc.nextInt();
+	switch(choice) {
+	case 1:
+		System.out.println("player:virat kholi");
+		System.out.println("role:batsman");
+		System.out.println("country:india");
+		break;
+	case 2:
+		System.out.println("playr:bravo");
+		System.out.println("role:ball\bat");
+		System.out.println("country:westindies");
+		break;
+	case 3:
+		System.out.println("player:raina");
+		System.out.println("role:bat\ball");
+		System.out.println("country:india");
+		break;
+		default:
+			System.out.println("invalid choice");
+	}
+}
+}
