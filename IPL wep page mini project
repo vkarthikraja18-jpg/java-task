@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cricket Players</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+        margin: 0;
+        padding: 0;
+          
+      }
+    header {
+      
+      background: #280064;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    header img {
+      width: 400px;
+      height: 150px;
+          margin-right: 10px;
+    }
+    h3{
+      margin: 20px;
+    }
+  
+    
+    .players {
+      
+     display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      margin: 10px;
+      bottom: 20px;
+      padding: 20px;
+      
+    }
+    .card {
+      background: white;
+      border-radius: 7px;
+      box-shadow: #555 1px 5px 10px;
+      
+      margin: 15px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+     object-fit: cover;
+  
+      
+    }
+    .card h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .card p {
+      color: #555;
+      padding: 0 10px 15px;
+    }
+    .ipl img{
+      height: 500px;
+      width: 500px;
+      margin: 30px;
+      padding-top: ;
+       
+    }
+   
+    .ipl{
+      padding-top: 20px;
+      background-color:wheat;
+      color: rebeccapurple;
+      text-align: center;
+
+    }
+      ul {
+        margin: 20px;
+        padding: 20px;
+
+      }
+      .cc{
+        background-color: black;
+        color: white;
+        padding-top: 20px;
+        margin: 20px;
+    
+      }
+      
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="IPL-Logo-Batsman.jpg" alt="">
+ <h1> Indian Premier League (IPL) gangsters </h1>
+  </header>
+  <h3><p>Indian Premier League is not just a cricket tournament; it is a celebration of passion, talent, and entertainment. Since its beginning in 2008, IPL has changed the face of T20 cricket and become one of the most popular sports leagues in the world. It brings together the best players from different countries and gives young Indian talents a chance to shine on the international stage. The excitement of last-over finishes, massive sixes, energetic crowds, and team rivalries makes every match unforgettable. Teams like Chennai Super Kings, Mumbai Indians, and Royal Challengers Bengaluru have millions of passionate fans who support them like family. IPL is not only about cricket; it is an emotion that unites people across India and inspires millions of youngsters to dream big.</p></h3>
+   
+  
+  
+  <section class="players">
+    <div class="card">
+      <img src=dhoni.jpj/14beba3bc19c96ecc226f3e94e189a9f.jpg alt="MS Dhoni">
+      <img src="dhoni.jpj/343-3433120_chennai-super-kings-pulled-off-a-nail-biting.jpg" alt="captain cool">
+      <img src="dhoni.jpj/ms-dhoni-hd-ball-strike-8s0tap0u4gx3mxya.jpg" alt="no.7">
+      <h3>MS Dhoni</h3>
+      <p>Former Indian captain, known as 'Captain Cool'.</p>
+    </div>
+    
+    <div class="card">
+      <img src="virat kholi/67676d448604a04a659a1a501d703faf.jpg" alt="Virat Kohli">
+      <img src="virat kholi/9321836.jpg" alt="kink">
+      <img src="virat kholi/wp12122718.jpg" alt="king kholi">
+      <h3>Virat Kohli</h3>
+      <p>One of the greatest batsmen of modern cricket.</p>
+    </div>
+    
+    <div class="card">
+      <img src="hitman/OIP (2).webp" alt="rohit sharma">
+      <img src="hitman/OIP (3).webp" alt="hitman">
+      <img src="hitman/Rohit-Sharma-MI.webp" alt="45">
+      <h3>rohit sharma</h3>
+      <p>the most powerful batsman in the history of cricket.</p>
+    </div>
+    <div class="card">
+      <img src="hardik/394bef8e4ee9f460c999121ffe26a897.jpg" alt="hardik">
+      <img src="hardik/HARDIK-PANDYA-MI-CAPTAIN.jpg" alt="pandaya">
+      <img src="hardik/untitled-design-2024-10-31t180104-1730377868.jpg" alt="hardik pandaya">
+      <h3>hardik pandaya</h3>
+      <p>the most powerful all rounder in the history of cricket.</p>
+    </div>
+    <div class="card">
+      <img src="raina/OIP (4).webp" alt="">
+      <img src="raina/Suresh-Raina-announced-his-retirement-from-all-forms-of-cricket.webp" alt="">
+      <img src="raina/suresh-raina.jpg" alt="">
+      <h3>suresh raina</h3>
+      <p>former indian cricketer, known for his aggressive batting style.</p>
+    </div>
+    <div class="card">
+     
+        <img src="ab de/5848931.jpg" alt="ab ">
+        <img src="ab de/1737546920459_ABD Comeback.webp" alt="ab de villie">
+        <img src="ab de/ab-de-villers.jpg-55.jpg" alt="mr 360">
+         <h3>AB de villiers</h3>
+      <p>former south african cricketer, known for his innovative batting techniques
+        and king of royal challengers bangalore mr 360.</p>
+
+    </div > 
+      </section>
+      <h1>TEAM</h1>
+      <ul>
+        <h2>
+        <li>Chennai Super Kings</li>
+        <li>Mumbai Indians</li>
+        <li> Royal Challengers Bangalore</li>
+        <li>delhi capitals</li>
+        <li> Kolkata Knight Riders</li>
+        <li>locknown super giants</li>
+        <li>punjab kings</li>
+        <li>Rajasthan royals</li>
+        <li>Sunrisers hyderabad</li>
+        <li>Gujarat titans</li>
+        </h2>
+
+      </ul>
+      <div class="ipl">
+        <h1>welcome to ipl</h1>
+      <img src="ipl/IPL-Logo-Batsman.jpg" alt="ipl">
+      <h1>GUIDELINES</h1>
+      
+      <img src="ipl/TXgL39al4DbnUHzCGgxOj-dce8OGUJt133HV5Q_ukcJpyP3agaV8hbpsebDPZ5ff5iEdCer1g7g5yiGovQpsypKhplNnttXoQL300KNjCIklw7YWzjdA8PIcZJK3lIUgEzqUPwqfdBxyom7GOZQr8NXbMOr201OuUoBWfx42OItodap2GYzhMvgqvzGmHNRO.jpg" alt="ipl">
+      <h1>EXCLUSIVE CONTENT</h1>
+        <h2><pre>the app offers live match updates, player statistics, and exclusive content. 
+            Whether you're a die-hard fan or a casual viewer, the IPL app is your go-to source for all things cricket. 
+            Download it now and never miss a moment of the action!</pre></h2>
+      <img src="ipl/TipKkRDTK-vxrf2hXZ7S6UD8-YCfXRqul97TBmSTHEJuDc6MOfLAc-LnE1R9C5WERhmgLfvWAr1Y98vXp4eve86OR6U8n1IYoBVNCnusdbwNae0YKGmMItp0PPoy5bCC8J35ww1M-Wclzj94mWwhtncpoot-P29lZBikrWFDG2T6wZzH4yx936864QUnC050.jpg" alt="ipl">
+
+      <h2> <pre>the app brings you closer to the action 
+        where you can follow your favorite teams and players.L. Stay connected, 
+      </pre></h2>
+      <img src="ipl/-hV5Ooq_33spvSSJdN0-hVQJKDl9A9Ay6BN2G50hhCAEC_QCf2-jmZGML3Ls3VGeCLPD_4GYp5IzFg8BDpaR9Fde_A0LlI4ozdRQhEGxpGNGewOpRXsxkolS9YElNd20P3JZRMSc_K9_90LmQW9mymXk_EQsMRXIcSoES6_B-AgRvPcZ9LbPI9lIef4dk-I_.jpg" alt="">
+
+      <h1>FAN POLL</h1>
+      <H3>make your voice heard party........</H3>
+     <img src="ipl/_LjjGOFLiJvxSqeosleKgbnZr19b_D-ixkioGuxTx3Ns2ccmhdCBv9DqXpL80X3lF-EXvjhOEZdvZLkqJJsCtQPdNq2GUrOX9KP8WKTAi_IDywEuDN5IpjBh1aJGkrhhYV5PC2HkyXaMFpd48q4kUcqm1uEusIADhmS3ar9v8FrpMZgNFjo-U2ujCnO0Z_qw.jpg" alt="">
+      </div>
+      <div class="cc">
+        <center>
+        <h1>CONTACT</h1></center>
+        <ol>
+          <h3>
+          <li>contact us</li><br>
+          <li>sportsmanship</li><br>
+          <li>privacy policy</li><br>
+          <li>terms of service</li></h3><br>
+        </ol>
+      </div>
+</body>
+
+</html>
